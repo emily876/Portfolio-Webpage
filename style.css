@@ -1,0 +1,321 @@
+.options{
+    padding-top: 25px;
+}
+li a{
+    text-decoration: none;
+}
+nav a{
+    color:#93b5e1;
+}
+nav li{
+    display: inline;
+    font-weight: bold;
+    list-style-type:none;
+    padding:40px;
+}
+nav{
+    background-color: #625261;
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    right:0px;
+    left:0px;
+    top:0px;
+}
+ul{
+    margin-top:0px;
+}
+div{
+    padding-top: 67px;
+    background-color:#dbe3e5;
+    width:1510px;
+    height:760px;
+}
+aside{
+    margin-top:180px;
+    margin-left:200px;
+    font-size: 40px;
+    float:left;
+    font-family:'Zilla Slab', serif;
+}
+aside li{
+    font-size:20px;
+    display: inline;
+    padding: 5px;
+    margin-left:5px;
+}
+aside a{
+    color:#005086;
+}
+p>a{
+    background-color:darkblue;
+    color:white;
+    text-decoration: none;
+    padding:10px;
+    border-radius:10px;
+    font-size: 25px;
+    margin-left:110px;
+}
+.profile-pic{
+    float:right;
+}
+img{
+    width:740px;
+    height:760px;
+}
+.about{
+    background-image:linear-gradient(to top left,#120136,#ff5200);
+    height:750px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.about h1{
+    color:#d8b9c3;
+    font-size:60px;
+    margin-top:0px;
+    padding-top:100px;
+    padding-left:50px;
+}
+.about p{
+    margin-left:50px;
+    font-size:22px;
+    color:#f8fab8;
+}
+.education{
+    background-image: url(images/book.webp);
+    height:760px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.education h1{
+    padding-top:100px;
+    padding-right:100px;
+    color:midnightblue; 
+    font-size: 70px;
+    float:right;
+}
+.education pre{
+    margin-top: 0px;
+    padding-top:300px;
+    padding-left:180px;
+    font-size: 18px;
+    font-weight: bold;
+    color:red;
+    font-family:'Sen', sans-serif;
+}
+.skill{
+    background-image: url(images/study.webp);
+    height:760px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.skill h1{
+   color: #f4abc4;
+   font-size: 60px;
+   padding:150px;
+   margin-top: 0px;
+}
+.skill pre{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.work{
+    background-image: url(images/workpic.webp);
+    height:760px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.work h1{
+   color:yellow;
+   font-size: 60px;
+   padding:100px;
+   margin-top: 0px;
+}
+.work h3{
+   padding-top:30px;
+   font-size: 20px;
+   color:red;
+   margin-left:600px;
+}
+.work p{
+    padding-top:20px;
+    margin-left:600px;
+    font-size: 20px;
+    color: 
+}
+.hobby{
+    background-image: url(images/hobby.webp);
+    height:760px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.hobby h1{
+    margin-top:100px;
+    margin-right:150px;
+    color:red; 
+    font-size: 70px;
+    float:right;
+}
+.hobby pre{
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    padding:250px;
+    margin-left: 100px;
+}
+.contact{
+    background-image:linear-gradient(to top left,#cf1b1b,#0f3460);
+    width:1510px;
+    height:745px;
+}
+.contact h1{
+   margin-top: 0px;
+   color:bisque;
+   font-size:50px;
+   padding:80px;
+}
+.contact h3{
+   text-align:center;
+   font-size: 30px;
+   color:darkorange;
+   padding:30px; 
+}
+.contact li{
+    font-size: 25px;
+    display:inline;
+    padding:150px;
+    margin-left: 60px;
+}
+.contact a{
+    color:white;
+    background-color: black;
+}
+.contact .arrange{
+    margin-left: 250px;
+}
+
+/*responsive designing*/
+@media(min-width:300px) and (max-width:420px)
+{
+  .options{
+    padding-top: 80px;
+      }
+  nav li{
+    padding:50px;
+    font-size: 50px;
+     }
+  nav{
+      padding:80px;
+     }
+  div{
+    padding-top: 67px;
+    height:2700px;
+    width:1550px;
+      }
+  aside{
+    font-size: 130px;
+     }
+  aside li{
+    font-size:80px;
+     }
+  p>a{
+    font-size: 60px;
+    padding:20px;
+    border-radius:20px;
+    margin-left:380px;
+         }
+  img{
+    width:1500px;
+    height:1100px;
+      } 
+  .about{
+    height:2700px;
+    width:1550px;
+      }
+   .about h1{
+    font-size:120px;
+    padding-top:100px;
+    padding-left:50px;
+      }
+   .about p{
+    margin-left:50px;
+    font-size:60px;
+      }
+  .education{
+    height:2700px;
+    width:1550px;
+      }
+   .education h1{ 
+    font-size: 150px;
+    }
+   .education pre{
+    padding-top:800px;
+    padding-left:0px;
+    font-size: 33px;
+  }
+  .skill{
+    height:2700px;
+    width:1550px;
+  }
+   .skill h1{
+   font-size: 150px;
+  }
+  .skill pre{
+    font-size: 22px;
+    padding-left:0px;
+  }
+  .work{
+    height:2700px;
+    width:1550px;
+  }
+   .work h1{
+   font-size: 120px;
+   padding:100px;
+   padding-top:350px;
+   }
+   .work h3{
+   font-size: 60px;
+   margin-left:100px;
+    }
+  .work p{
+    margin-left:100px;
+    font-size: 50px;
+    }
+   .hobby{
+    height:2700px;
+    width:1550px;
+    }
+  .hobby h1{
+    margin-top:300px;
+    margin-right:300px; 
+    font-size: 150px;
+    }
+   .hobby pre{
+    font-size: 30px;
+    padding-left:0px;
+    padding-top:900px;
+      }
+   .contact{
+    height:2700px;
+    width:1550px;
+     }
+   .contact h1{
+   font-size:150px;
+   padding:300px;
+   }
+   .contact h3{
+   font-size: 60px;
+   padding:30px; 
+    }
+   .contact li{
+    font-size:50px;
+    padding:100px;
+    margin-left: 60px;
+   } 
+
